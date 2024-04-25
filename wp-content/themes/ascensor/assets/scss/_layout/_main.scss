@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  background-color: yellowgreen;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  color: #FFF;
+  text-shadow: none;
+  background-color: #FFF;
+}
+
+.container-fluid {
+
+  &.small-spacing {
+
+    @include media-breakpoint-up(sm) {
+
+    }
+
+    @include media-breakpoint-up(md) {
+
+    }
+
+    @include media-breakpoint-up(lg) {
+
+    }
+
+    @include media-breakpoint-up(xl) {
+
+    }
+  }
+
+  &.medium-spacing {
+
+
+    @include media-breakpoint-up(sm) {
+
+    }
+
+    @include media-breakpoint-up(md) {
+
+    }
+
+    @include media-breakpoint-up(lg) {
+
+    }
+
+    @include media-breakpoint-up(xl) {
+
+    }
+  }
+
+  &.large-spacing {
+
+    @include media-breakpoint-up(sm) {
+
+    }
+
+    @include media-breakpoint-up(md) {
+
+    }
+
+    @include media-breakpoint-up(lg) {
+
+    }
+
+    @include media-breakpoint-up(xl) {
+
+    }
+  }
+}

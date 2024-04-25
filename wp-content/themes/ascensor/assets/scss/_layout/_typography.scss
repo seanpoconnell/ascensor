@@ -1,0 +1,79 @@
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.small-margin {
+
+  @include media-breakpoint-up(sm) {
+
+  }
+
+  @include media-breakpoint-up(md) {
+
+  }
+
+  @include media-breakpoint-up(lg) {
+
+  }
+
+  @include media-breakpoint-up(xl) {
+
+  }
+}
+
+.medium-margin {
+
+  @include media-breakpoint-up(sm) {
+
+  }
+
+  @include media-breakpoint-up(md) {
+
+  }
+
+  @include media-breakpoint-up(lg) {
+
+  }
+
+  @include media-breakpoint-up(xl) {
+
+  }
+}
+
+.large-margin {
+
+  @include media-breakpoint-up(sm) {
+
+  }
+
+  @include media-breakpoint-up(md) {
+
+  }
+
+  @include media-breakpoint-up(lg) {
+
+  }
+
+  @include media-breakpoint-up(xl) {
+
+  }
+}

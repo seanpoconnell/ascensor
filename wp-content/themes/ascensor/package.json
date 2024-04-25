@@ -1,0 +1,31 @@
+{
+  "name": "theme-base",
+  "version": "2.0.0",
+  "description": "Front-end Framework WordPress theme.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WordPress"
+  ],
+  "author": "Sean OConnell",
+  "license": "ISC",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.13.4",
+    "sass": "^1.49.9",
+    "tar": "^6.1.11"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.0"
+  }
+}
